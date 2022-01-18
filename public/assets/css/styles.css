@@ -1,0 +1,56 @@
+header{
+    background: #375269;
+    height: 40px;
+    width: 100%;
+}
+
+aside{
+    width: 200px;
+    background: #e9ecef;
+    height: 100vh;
+    float: left;
+    border-right: solid 1px #ddd;
+}
+
+aside ul{
+    list-style: none;
+    padding: 10px 6px;
+}
+
+aside ul li a{
+    padding: 8px;
+    background: #375269;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: block;
+    color: #eee;
+    box-shadow: inset 0px 0px 9px 3px #103953;
+}
+aside ul li a:hover{
+    text-decoration: none;
+    color: #eee;
+    background: #117a8b;
+}
+
+.h1-header{
+    padding: 15px ;
+    width: 100%;
+    font-size: 24px;
+}
+.h1-header button{
+    float: right;
+}
+.h1-header:after{
+    height: 1px;
+    content: "";
+    width: 100%;
+    background: #37526930;
+    display: block;
+    margin-top: 24px;
+}
+input[type=number] {
+    width:50px
+}
+.valor, .valor_imposto{
+    display: inline-block;
+}
