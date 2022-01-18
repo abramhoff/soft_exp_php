@@ -9,4 +9,6 @@ Instruções para instalação:
 
 #2: Configurar dados de conexão da database em config.php
 
-#3: Executar  php -S localhost:8080 na pasta public
+#3: Importar o banco de dados , arquivo postgre: soft_e_database
+
+#4: Executar  php -S localhost:8080 na pasta public
